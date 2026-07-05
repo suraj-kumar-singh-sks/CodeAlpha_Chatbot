@@ -1,19 +1,19 @@
-Zeno — Basic Chatbot
+# Zeno — Basic Chatbot
 
 A simple rule-based chatbot built with **pure Python**.  
 It responds to greetings, questions, and commands using predefined rules — no external libraries or APIs.
 
 ---
-Project Info
+## Project Info
 | Detail | Info |
 |---|---|
-| Task | Task 4 — Basic Chatbot |
+| Task - Basic Chatbot |
 | Language | Python 3 |
 | Libraries Used | `random`, `time` (both built-in) |
 | Type | Console / Terminal Application |
 
 ---
-Python Concepts Used
+## Python Concepts Used
 
 | Concept | Where it's applied |
 |---|---|
@@ -26,7 +26,7 @@ Python Concepts Used
 | `time` | `time.strftime()` returns the current system time when asked |
 
 ---
-How It Works
+##  How It Works
 
 1. The chatbot starts and shows a welcome banner
 2. You type a message (e.g. `hello`, `tell me a joke`, `what time is it`)
@@ -36,7 +36,7 @@ How It Works
 6. Typing `bye`, `exit`, or `quit` ends the conversation
 
 ---
-Supported Commands
+## Supported Commands
 
 | What you type | What Zeno does |
 |---|---|
@@ -52,7 +52,7 @@ Supported Commands
 | `bye` / `exit` / `quit` | Ends the session |
 
 ---
-Demo
+## Demo
 ```
 ============================================
            ZENO  —  Basic Chatbot
@@ -80,7 +80,7 @@ Zeno  : Goodbye! Have a wonderful day!
 ```
 
 ---
-Program Flow
+## Program Flow
 ```
 Program starts
       │
@@ -107,7 +107,7 @@ run_chatbot() — main loop (while True)
 ```
 
 ---
-Project Structure
+## Project Structure
 ```
 CodeAlpha_BasicChatbot/
 │
@@ -116,7 +116,7 @@ CodeAlpha_BasicChatbot/
 ```
 
 ---
-Functions Overview
+## Functions Overview
 | Function | What it does |
 |---|---|
 | `get_response(user_input)` | Matches input against keywords and returns a reply |
@@ -126,7 +126,7 @@ Functions Overview
 | `run_chatbot()` | Runs the main loop — reads input, gets a reply, checks for exit |
 
 ---
-Edge Cases Handled
+## Edge Cases Handled
 
 - **Empty input** — prompts the user to type something instead of crashing
 - **Unrecognised input** — returns a helpful fallback reply instead of an error
@@ -134,7 +134,7 @@ Edge Cases Handled
 - **Case-insensitive matching** — "HELLO", "Hello", and "hello" all work the same
 
 ---
-How to Run
+## How to Run
 
 ```bash
 # Make sure Python 3 is installed
@@ -147,8 +147,5 @@ python chatbot.py
 No installation needed — this project only uses Python's built-in `random` and `time` modules.
 
 ---
-Author
+## Author
 SURAJ KUMAR SINGH
-
-**Your Name**  
-[GitHub](https://github.com/your-username) · [LinkedIn](https://linkedin.com/in/your-profile)

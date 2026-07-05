@@ -7,7 +7,7 @@ It responds to greetings, questions, and commands using predefined rules — no 
 ## Project Info
 | Detail | Info |
 |---|---|
-| Task - Basic Chatbot |
+| Task |- Basic Chatbot |
 | Language | Python 3 |
 | Libraries Used | `random`, `time` (both built-in) |
 | Type | Console / Terminal Application |
